@@ -1,0 +1,18 @@
+                        -H/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=23
+-DANDROID_PLATFORM=android-23
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=/home/gnikhil/android-sdk/ndk/26.1.10909125
+-DCMAKE_ANDROID_NDK=/home/gnikhil/android-sdk/ndk/26.1.10909125
+-DCMAKE_TOOLCHAIN_FILE=/home/gnikhil/android-sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/usr/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/gnikhil/Downloads/agent fiirst ai/vesta/build/llama_cpp_dart/intermediates/cxx/RelWithDebInfo/2c04i4z5/obj/x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/gnikhil/Downloads/agent fiirst ai/vesta/build/llama_cpp_dart/intermediates/cxx/RelWithDebInfo/2c04i4z5/obj/x86_64
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-B/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2c04i4z5/x86_64
+-GNinja
+                        Build command args: []
+                        Version: 2

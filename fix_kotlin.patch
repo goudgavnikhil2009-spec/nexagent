@@ -1,0 +1,31 @@
+--- android/build.gradle
++++ android/build.gradle
+@@ -1,9 +1,8 @@
+ buildscript {
+-    ext.kotlin_version = '2.2.20'
++    ext.kotlin_version = '1.9.24'
+     repositories {
+         google()
+         mavenCentral()
+     }
+     dependencies {
+         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+     }
+ }
+ 
+ allprojects {
+     repositories {
+         google()
+         mavenCentral()
+     }
++    configurations.all {
++        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
++            def requested = details.requested
++            if (requested.group == 'org.jetbrains.kotlin' && requested.name.startsWith('kotlin-stdlib')) {
++                details.useVersion '1.9.24'
++            }
++        }
++    }
+ }
+ 
+ rootProject.buildDir = "../build"

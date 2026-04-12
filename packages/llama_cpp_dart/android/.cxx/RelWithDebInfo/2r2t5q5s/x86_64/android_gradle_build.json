@@ -1,0 +1,82 @@
+{
+  "buildFiles": [
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/CMakeLists.txt",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/CMakeLists.txt",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/cmake/build-info.cmake",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/cmake/common.cmake",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/cmake/license.cmake",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/cmake/llama-config.cmake.in",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/ggml/CMakeLists.txt",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/ggml/cmake/common.cmake",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/ggml/cmake/ggml-config.cmake.in",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/ggml/src/CMakeLists.txt",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/src/llama.cpp/src/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/usr/bin/ninja",
+      "-C",
+      "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/usr/bin/ninja",
+    "-C",
+    "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ggml::@94de48a0d5830e0c5d2f": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml",
+      "output": "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64/bin/libggml.so",
+      "runtimeFiles": [
+        "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64/bin/libggml-cpu.so",
+        "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-base::@94de48a0d5830e0c5d2f": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-base",
+      "output": "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64/bin/libggml-base.so",
+      "runtimeFiles": []
+    },
+    "ggml-cpu::@94de48a0d5830e0c5d2f": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu",
+      "output": "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64/bin/libggml-cpu.so",
+      "runtimeFiles": [
+        "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64/bin/libggml-base.so",
+        "/home/gnikhil/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/x86_64/libomp.so"
+      ]
+    },
+    "llama::@fb8c1886b26de7beabc1": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama",
+      "output": "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64/bin/libllama.so",
+      "runtimeFiles": [
+        "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64/bin/libggml.so",
+        "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64/bin/libggml-cpu.so",
+        "/home/gnikhil/Downloads/agent fiirst ai/vesta/packages/llama_cpp_dart/android/.cxx/RelWithDebInfo/2r2t5q5s/x86_64/bin/libggml-base.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/gnikhil/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/gnikhil/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
