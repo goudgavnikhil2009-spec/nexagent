@@ -1,7 +1,11 @@
 {
   "name": "Flutter Android",
   "image": "ghcr.io/cirruslabs/flutter:stable",
-  "features": {},
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [

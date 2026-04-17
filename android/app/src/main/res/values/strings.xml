@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Vesta</string>
-    <string name="accessibility_service_description">Vesta AI Agent needs accessibility access to observe your screen, perform taps, and type text on your behalf. This allows the hands-free AI controller to execute your voice commands.</string>
-</resources>
